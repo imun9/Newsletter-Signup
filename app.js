@@ -33,7 +33,7 @@ app.post("/", function(req, res) {
     }]
   };
   const jsonData = JSON.stringify(data);
-  const url = "https://us5.api.mailchimp.com/3.0/lists/304949899bd";
+  const url = "https://us5.api.mailchimp.com/3.0/lists/304949899b";
   const options={
     method:"POST",
     auth:"AmnahtheOne:1493634f9aa22cb0bd9432b1e6f5a61b-us5"
